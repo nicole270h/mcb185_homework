@@ -1,0 +1,17 @@
+Thu Jun 27 15:49:22 PDT 2024
+user: nicole
+home: /Users/nicole
+shell: /bin/zsh
+pwd: /Users/nicole/Code/mcb185_homework
+path: /usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin
+Darwin campus-027-195.ucdavis.edu 23.4.0 Darwin Kernel Version 23.4.0: Fri Mar 15 00:19:22 PDT 2024; root:xnu-10063.101.17~1/RELEASE_ARM64_T8112 arm64
+Python 3.9.6
+/Users/nicole/Code
+/Users/nicole/Code/mcb185_homework
+/Users/nicole/Code/mcb185_homework/.git
+/Users/nicole/Code/MCB185
+/Users/nicole/Code/MCB185/ref
+/Users/nicole/Code/MCB185/course
+/Users/nicole/Code/MCB185/.git
+/Users/nicole/Code/MCB185/data
+/Users/nicole/Code/MCB185/src
