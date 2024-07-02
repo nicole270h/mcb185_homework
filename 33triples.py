@@ -1,9 +1,8 @@
 import math
+
 limit = 100
-for i in range(0, limit):
-    for j in range(i+1, limit):
-        ix = i+1
-        jx = j+1
-        c = math.sqrt(ix**2 + jx**2)
+for a in range(1, limit+1):
+    for b in range(a+1, limit+1):
+        c = math.sqrt(a**2 + b**2)
         if c%1 == 0:
-        	print(ix, jx, int(c))
+        	print(a, b, int(c))
