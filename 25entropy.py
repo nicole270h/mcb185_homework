@@ -1,23 +1,19 @@
 import math
 def entropy(a,c,t,g):
-	pa = a/(a+c+t+g)
-	pc = c/(a+c+t+g)
-	pt = t/(a+c+t+g)
-	pg = g/(a+c+t+g)
 	if a != 0:
-		pax = -pa*(math.log2(pa))
+		pax = -(a/(a+c+t+g))*(math.log2(a/(a+c+t+g)))
 	else:
 		pax = 0
 	if c != 0:
-		pcx = -pc*(math.log2(pc))
+		pcx = -(c/(a+c+t+g))*(math.log2(c/(a+c+t+g)))
 	else:
 		pcx = 0
 	if t != 0:
-		ptx = -pt*(math.log2(pt))
+		ptx = -(t/(a+c+t+g))*(math.log2(t/(a+c+t+g)))
 	else:
 		ptx = 0
 	if g != 0:
-		pgx = -pg*(math.log2(pg))
+		pgx = -(g/(a+c+t+g))*(math.log2(g/(a+c+t+g)))
 	else:
 		pgx = 0
 	shannon = pax + pcx + ptx + pgx

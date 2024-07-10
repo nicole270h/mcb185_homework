@@ -1,3 +1,4 @@
+"""
 seq = "ACGTACGTGGGGGACGTACGTCCCCC"
 count = {}
 for nt in seq:
@@ -7,3 +8,8 @@ for nt in seq:
 print(count)
 counts = {"A":"first", "C":"second", "B":"third"}
 for k in sorted(counts): print(k, counts[k])
+"""
+
+tempo = 0
+tempo = "f"
+print(tempo)
